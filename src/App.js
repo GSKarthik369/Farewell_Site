@@ -55,7 +55,7 @@ const Confetti = () => {
       setTimeout(() => {
         setParticles([]);
       }, 5000);
-    }, 20000);
+    }, 5000);
 
     return () => {
       clearInterval(interval);
