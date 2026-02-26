@@ -105,7 +105,7 @@ function App() {
             >
               &times;
             </button>
-            <img src={modalImageSrc} className="modal-image" />
+            <img src={modalImageSrc} className="modal-image" alt="Img" />
           </div>
         </div>
       )}
