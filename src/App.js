@@ -111,7 +111,7 @@ function App() {
       )}
 
       <header className="header">
-        <h1 className="title">Farewell, Lokesh! 👋</h1>
+        <h1 className="title">Farewell, Shrayansh! 👋</h1>
         <p className="subtitle">
           A celebration of your incredible journey with our team
         </p>
@@ -142,14 +142,14 @@ function App() {
               {/* <Users size={48} color="#6366f1" />
               <p>Add your photo here</p> */}
               <img
-                src="/Lokesh.png"
+                src="/Shrayansh.png"
                 alt="Team member"
                 width={120}
                 height={120}
               />
             </div>
             <div className="badge" onClick={() => {
-  setModalImageSrc('/Lokesh.png');
+  setModalImageSrc('/Shrayansh.png');
   setShowImageModal(true);
 }} title="Click to enlarge">
   <Code size={20} />
