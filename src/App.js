@@ -1,6 +1,6 @@
 // src/App.js
 import React, { useEffect, useState } from "react";
-import { Heart, Users, Code, Coffee, Star, Sparkles } from "lucide-react";
+import { Heart, Users, Code, Coffee, Star, Sparkles, Bug, ShieldCheck } from "lucide-react";
 import "./App.css";
 
 const Confetti = () => {
@@ -111,7 +111,7 @@ function App() {
       )}
 
       <header className="header">
-        <h1 className="title">Farewell, Shrayansh! 👋</h1>
+        <h1 className="title">Farewell, Akshay! 👋</h1>
         <p className="subtitle">
           A celebration of your incredible journey with our team
         </p>
@@ -129,7 +129,7 @@ function App() {
           <p className="message">
             Your dedication, creativity, and positive spirit have made our team
             stronger. While we're sad to see you go, we're excited for your new
-            adventure. You'll always be part of our developer family!
+            adventure. You'll always be part of our quality and testing family!
           </p>
         </section>
 
@@ -143,7 +143,7 @@ function App() {
               <p>Add your photo here</p> */}
               <img
                 src="/Shrayansh.png"
-                alt="Team member"
+                alt="Akshay"
                 width={120}
                 height={120}
               />
@@ -181,19 +181,19 @@ function App() {
           <h3 className="section-title">What We'll Remember Most 🌟</h3>
           <div className="memory-grid">
             <div className="memory">
-              <Code size={32} />
-              <h4>Clean Code</h4>
-              <p>Elegant solutions and attention to detail</p>
+              <Bug size={32} />
+              <h4>Excellent Bug Hunts</h4>
+              <p>Finding the tricky issues that made our products better</p>
             </div>
             <div className="memory">
-              <Users size={32} />
-              <h4>Team Spirit</h4>
-              <p>Always ready to help and collaborate</p>
+              <ShieldCheck size={32} />
+              <h4>PROD Issue Support</h4>
+              <p>Always ready to help investigate and resolve PROD issues</p>
             </div>
             <div className="memory">
               <Coffee size={32} />
-              <h4>Great Vibes</h4>
-              <p>Made every standup and review enjoyable</p>
+              <h4>Quality Mindset</h4>
+              <p>Thoughtful testing and collaboration at every step</p>
             </div>
           </div>
         </section>
