@@ -129,7 +129,7 @@ function App() {
           <p className="message">
             Your dedication, creativity, and positive spirit have made our team
             stronger. While we're sad to see you go, we're excited for your new
-            adventure. You'll always be part of our quality and testing family!
+            adventure. You'll always be part of our team!
           </p>
         </section>
 
@@ -142,14 +142,14 @@ function App() {
               {/* <Users size={48} color="#6366f1" />
               <p>Add your photo here</p> */}
               <img
-                src="/Shrayansh.png"
+                src="/Akshay.jpg"
                 alt="Akshay"
                 width={120}
                 height={120}
               />
             </div>
             <div className="badge" onClick={() => {
-  setModalImageSrc('/Shrayansh.png');
+  setModalImageSrc('/Akshay.jpg');
   setShowImageModal(true);
 }} title="Click to enlarge">
   <Code size={20} />
